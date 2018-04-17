@@ -5,7 +5,13 @@
 	<Property Name="NI.Lib.Version" Type="Str">1.0.0.0</Property>
 	<Item Name="DataTypes" Type="Folder">
 		<Item Name=".ctl" Type="VI" URL="../DataTypes/.ctl"/>
+		<Item Name="DetailedState.ctl" Type="VI" URL="../DataTypes/DetailedState.ctl"/>
+		<Item Name="Device.ctl" Type="VI" URL="../DataTypes/Device.ctl"/>
+		<Item Name="Grating.ctl" Type="VI" URL="../DataTypes/Grating.ctl"/>
+		<Item Name="LightStatus.ctl" Type="VI" URL="../DataTypes/LightStatus.ctl"/>
 		<Item Name="LoopTime_ms.ctl" Type="VI" URL="../DataTypes/LoopTime_ms.ctl"/>
+		<Item Name="Slit.ctl" Type="VI" URL="../DataTypes/Slit.ctl"/>
+		<Item Name="SummaryState.ctl" Type="VI" URL="../DataTypes/SummaryState.ctl"/>
 		<Item Name="Timestamp.ctl" Type="VI" URL="../DataTypes/Timestamp.ctl"/>
 		<Item Name="ackcmd.ctl" Type="VI" URL="../DataTypes/ackcmd.ctl"/>
 		<Item Name="command.ctl" Type="VI" URL="../DataTypes/command.ctl"/>
