@@ -19,16 +19,17 @@
 		<Item Name="command_ChangeLightIntensity.ctl" Type="VI" URL="../DataTypes/command_ChangeLightIntensity.ctl"/>
 		<Item Name="command_ChangeSlitWidth.ctl" Type="VI" URL="../DataTypes/command_ChangeSlitWidth.ctl"/>
 		<Item Name="command_ChangeWavelength.ctl" Type="VI" URL="../DataTypes/command_ChangeWavelength.ctl"/>
-		<Item Name="command_Disable.ctl" Type="VI" URL="../DataTypes/command_Disable.ctl"/>
-		<Item Name="command_Enable.ctl" Type="VI" URL="../DataTypes/command_Enable.ctl"/>
-		<Item Name="command_EnterControl.ctl" Type="VI" URL="../DataTypes/command_EnterControl.ctl"/>
-		<Item Name="command_ExitControl.ctl" Type="VI" URL="../DataTypes/command_ExitControl.ctl"/>
 		<Item Name="command_Power.ctl" Type="VI" URL="../DataTypes/command_Power.ctl"/>
 		<Item Name="command_PowerWhiteLight.ctl" Type="VI" URL="../DataTypes/command_PowerWhiteLight.ctl"/>
 		<Item Name="command_SelectGrating.ctl" Type="VI" URL="../DataTypes/command_SelectGrating.ctl"/>
 		<Item Name="command_SetCoolingTemperature.ctl" Type="VI" URL="../DataTypes/command_SetCoolingTemperature.ctl"/>
-		<Item Name="command_StandBy.ctl" Type="VI" URL="../DataTypes/command_StandBy.ctl"/>
-		<Item Name="command_Start.ctl" Type="VI" URL="../DataTypes/command_Start.ctl"/>
+		<Item Name="command_disable.ctl" Type="VI" URL="../DataTypes/command_disable.ctl"/>
+		<Item Name="command_enable.ctl" Type="VI" URL="../DataTypes/command_enable.ctl"/>
+		<Item Name="command_enterControl.ctl" Type="VI" URL="../DataTypes/command_enterControl.ctl"/>
+		<Item Name="command_exitControl.ctl" Type="VI" URL="../DataTypes/command_exitControl.ctl"/>
+		<Item Name="command_standBy.ctl" Type="VI" URL="../DataTypes/command_standBy.ctl"/>
+		<Item Name="command_start.ctl" Type="VI" URL="../DataTypes/command_start.ctl"/>
+		<Item Name="command_updateMonochromatorSetup.ctl" Type="VI" URL="../DataTypes/command_updateMonochromatorSetup.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_AppliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_AppliedSettingsMatchStart.ctl"/>
 		<Item Name="logevent_CoolingMonitoring.ctl" Type="VI" URL="../DataTypes/logevent_CoolingMonitoring.ctl"/>
@@ -61,30 +62,32 @@
 	<Item Name="atMonochromator_acceptCommand_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_acceptCommand_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_acceptCommand_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_acceptCommand_Disable.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_Disable.vi"/>
-	<Item Name="atMonochromator_acceptCommand_Enable.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_Enable.vi"/>
-	<Item Name="atMonochromator_acceptCommand_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_EnterControl.vi"/>
-	<Item Name="atMonochromator_acceptCommand_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_ExitControl.vi"/>
 	<Item Name="atMonochromator_acceptCommand_Power.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_Power.vi"/>
 	<Item Name="atMonochromator_acceptCommand_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_acceptCommand_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_SelectGrating.vi"/>
 	<Item Name="atMonochromator_acceptCommand_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_acceptCommand_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_StandBy.vi"/>
-	<Item Name="atMonochromator_acceptCommand_Start.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_Start.vi"/>
+	<Item Name="atMonochromator_acceptCommand_disable.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_disable.vi"/>
+	<Item Name="atMonochromator_acceptCommand_enable.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_enable.vi"/>
+	<Item Name="atMonochromator_acceptCommand_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_enterControl.vi"/>
+	<Item Name="atMonochromator_acceptCommand_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_exitControl.vi"/>
+	<Item Name="atMonochromator_acceptCommand_standBy.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_standBy.vi"/>
+	<Item Name="atMonochromator_acceptCommand_start.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_start.vi"/>
+	<Item Name="atMonochromator_acceptCommand_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_acceptCommand_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_ackCommand_CalibrateWavelength.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_CalibrateWavelength.vi"/>
 	<Item Name="atMonochromator_ackCommand_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_ackCommand_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_ackCommand_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_ackCommand_Disable.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_Disable.vi"/>
-	<Item Name="atMonochromator_ackCommand_Enable.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_Enable.vi"/>
-	<Item Name="atMonochromator_ackCommand_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_EnterControl.vi"/>
-	<Item Name="atMonochromator_ackCommand_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_ExitControl.vi"/>
 	<Item Name="atMonochromator_ackCommand_Power.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_Power.vi"/>
 	<Item Name="atMonochromator_ackCommand_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_ackCommand_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_SelectGrating.vi"/>
 	<Item Name="atMonochromator_ackCommand_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_ackCommand_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_StandBy.vi"/>
-	<Item Name="atMonochromator_ackCommand_Start.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_Start.vi"/>
+	<Item Name="atMonochromator_ackCommand_disable.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_disable.vi"/>
+	<Item Name="atMonochromator_ackCommand_enable.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_enable.vi"/>
+	<Item Name="atMonochromator_ackCommand_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_enterControl.vi"/>
+	<Item Name="atMonochromator_ackCommand_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_exitControl.vi"/>
+	<Item Name="atMonochromator_ackCommand_standBy.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_standBy.vi"/>
+	<Item Name="atMonochromator_ackCommand_start.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_start.vi"/>
+	<Item Name="atMonochromator_ackCommand_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_ackCommand_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_cancelCallback_LoopTimems.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_LoopTimems.vi"/>
 	<Item Name="atMonochromator_cancelCallback_Timestamp.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_Timestamp.vi"/>
 	<Item Name="atMonochromator_cancelCallback_ackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_ackcmd.vi"/>
@@ -97,14 +100,6 @@
 	<Item Name="atMonochromator_cancelCallback_command_ChangeSlitWidthackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_ChangeSlitWidthackcmd.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_ChangeWavelength.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_ChangeWavelengthackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_ChangeWavelengthackcmd.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_Disable.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Disable.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_Disableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Disableackcmd.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_Enable.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Enable.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_Enableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Enableackcmd.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_EnterControl.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_EnterControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_EnterControlackcmd.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_ExitControl.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_ExitControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_ExitControlackcmd.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_Power.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Power.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_PowerWhiteLightackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_PowerWhiteLightackcmd.vi"/>
@@ -113,10 +108,20 @@
 	<Item Name="atMonochromator_cancelCallback_command_SelectGratingackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_SelectGratingackcmd.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_SetCoolingTemperature.vi"/>
 	<Item Name="atMonochromator_cancelCallback_command_SetCoolingTemperatureackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_SetCoolingTemperatureackcmd.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_StandBy.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_StandByackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_StandByackcmd.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_Start.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Start.vi"/>
-	<Item Name="atMonochromator_cancelCallback_command_Startackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_Startackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_disable.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_disable.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_disableackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_enable.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_enable.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_enableackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_enterControl.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_enterControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_enterControlackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_exitControl.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_exitControlackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_standBy.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_standBy.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_standByackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_standByackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_start.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_start.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_startackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_startackcmd.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_updateMonochromatorSetup.vi"/>
+	<Item Name="atMonochromator_cancelCallback_command_updateMonochromatorSetupackcmd.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_command_updateMonochromatorSetupackcmd.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_CoolingMonitoring.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_CoolingMonitoring.vi"/>
@@ -186,32 +191,34 @@
 	<Item Name="atMonochromator_getResponse_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_getResponse_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_getResponse_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_getResponse_Disable.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_Disable.vi"/>
-	<Item Name="atMonochromator_getResponse_Enable.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_Enable.vi"/>
-	<Item Name="atMonochromator_getResponse_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_EnterControl.vi"/>
-	<Item Name="atMonochromator_getResponse_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_ExitControl.vi"/>
 	<Item Name="atMonochromator_getResponse_Power.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_Power.vi"/>
 	<Item Name="atMonochromator_getResponse_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_getResponse_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_SelectGrating.vi"/>
 	<Item Name="atMonochromator_getResponse_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_getResponse_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_StandBy.vi"/>
-	<Item Name="atMonochromator_getResponse_Start.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_Start.vi"/>
+	<Item Name="atMonochromator_getResponse_disable.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_disable.vi"/>
+	<Item Name="atMonochromator_getResponse_enable.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_enable.vi"/>
+	<Item Name="atMonochromator_getResponse_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_enterControl.vi"/>
+	<Item Name="atMonochromator_getResponse_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_exitControl.vi"/>
+	<Item Name="atMonochromator_getResponse_standBy.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_standBy.vi"/>
+	<Item Name="atMonochromator_getResponse_start.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_start.vi"/>
+	<Item Name="atMonochromator_getResponse_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_getResponse_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_getSample_LoopTimems.vi" Type="VI" URL="../VIs/atMonochromator_getSample_LoopTimems.vi"/>
 	<Item Name="atMonochromator_getSample_Timestamp.vi" Type="VI" URL="../VIs/atMonochromator_getSample_Timestamp.vi"/>
 	<Item Name="atMonochromator_issueCommand_CalibrateWavelength.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_CalibrateWavelength.vi"/>
 	<Item Name="atMonochromator_issueCommand_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_issueCommand_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_issueCommand_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_issueCommand_Disable.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_Disable.vi"/>
-	<Item Name="atMonochromator_issueCommand_Enable.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_Enable.vi"/>
-	<Item Name="atMonochromator_issueCommand_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_EnterControl.vi"/>
-	<Item Name="atMonochromator_issueCommand_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_ExitControl.vi"/>
 	<Item Name="atMonochromator_issueCommand_Power.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_Power.vi"/>
 	<Item Name="atMonochromator_issueCommand_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_issueCommand_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_SelectGrating.vi"/>
 	<Item Name="atMonochromator_issueCommand_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_issueCommand_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_StandBy.vi"/>
-	<Item Name="atMonochromator_issueCommand_Start.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_Start.vi"/>
+	<Item Name="atMonochromator_issueCommand_disable.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_disable.vi"/>
+	<Item Name="atMonochromator_issueCommand_enable.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_enable.vi"/>
+	<Item Name="atMonochromator_issueCommand_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_enterControl.vi"/>
+	<Item Name="atMonochromator_issueCommand_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_exitControl.vi"/>
+	<Item Name="atMonochromator_issueCommand_standBy.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_standBy.vi"/>
+	<Item Name="atMonochromator_issueCommand_start.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_start.vi"/>
+	<Item Name="atMonochromator_issueCommand_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_issueCommand_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="atMonochromator_logEvent_CoolingMonitoring.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_CoolingMonitoring.vi"/>
 	<Item Name="atMonochromator_logEvent_DetailedState.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_DetailedState.vi"/>
@@ -236,16 +243,17 @@
 	<Item Name="atMonochromator_monitorCommand_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_monitorCommand_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_monitorCommand_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_monitorCommand_Disable.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_Disable.vi"/>
-	<Item Name="atMonochromator_monitorCommand_Enable.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_Enable.vi"/>
-	<Item Name="atMonochromator_monitorCommand_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_EnterControl.vi"/>
-	<Item Name="atMonochromator_monitorCommand_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_ExitControl.vi"/>
 	<Item Name="atMonochromator_monitorCommand_Power.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_Power.vi"/>
 	<Item Name="atMonochromator_monitorCommand_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_monitorCommand_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_SelectGrating.vi"/>
 	<Item Name="atMonochromator_monitorCommand_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_monitorCommand_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_StandBy.vi"/>
-	<Item Name="atMonochromator_monitorCommand_Start.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_Start.vi"/>
+	<Item Name="atMonochromator_monitorCommand_disable.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_disable.vi"/>
+	<Item Name="atMonochromator_monitorCommand_enable.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_enable.vi"/>
+	<Item Name="atMonochromator_monitorCommand_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_enterControl.vi"/>
+	<Item Name="atMonochromator_monitorCommand_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_exitControl.vi"/>
+	<Item Name="atMonochromator_monitorCommand_standBy.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_standBy.vi"/>
+	<Item Name="atMonochromator_monitorCommand_start.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_start.vi"/>
+	<Item Name="atMonochromator_monitorCommand_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_monitorCommand_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_putSample_LoopTimems.vi" Type="VI" URL="../VIs/atMonochromator_putSample_LoopTimems.vi"/>
 	<Item Name="atMonochromator_putSample_Timestamp.vi" Type="VI" URL="../VIs/atMonochromator_putSample_Timestamp.vi"/>
 	<Item Name="atMonochromator_registerCallback_LoopTimems.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_LoopTimems.vi"/>
@@ -260,14 +268,6 @@
 	<Item Name="atMonochromator_registerCallback_command_ChangeSlitWidthackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_ChangeSlitWidthackcmd.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_ChangeWavelength.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_ChangeWavelengthackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_ChangeWavelengthackcmd.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_Disable.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Disable.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_Disableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Disableackcmd.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_Enable.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Enable.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_Enableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Enableackcmd.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_EnterControl.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_EnterControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_EnterControlackcmd.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_ExitControl.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_ExitControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_ExitControlackcmd.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_Power.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Power.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_PowerWhiteLightackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_PowerWhiteLightackcmd.vi"/>
@@ -276,10 +276,20 @@
 	<Item Name="atMonochromator_registerCallback_command_SelectGratingackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_SelectGratingackcmd.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_SetCoolingTemperature.vi"/>
 	<Item Name="atMonochromator_registerCallback_command_SetCoolingTemperatureackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_SetCoolingTemperatureackcmd.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_StandBy.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_StandByackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_StandByackcmd.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_Start.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Start.vi"/>
-	<Item Name="atMonochromator_registerCallback_command_Startackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_Startackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_disable.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_disable.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_disableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_disableackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_enable.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_enable.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_enableackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_enableackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_enterControl.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_enterControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_enterControlackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_exitControl.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_exitControlackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_exitControlackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_standBy.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_standBy.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_standByackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_standByackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_start.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_start.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_startackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_startackcmd.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_updateMonochromatorSetup.vi"/>
+	<Item Name="atMonochromator_registerCallback_command_updateMonochromatorSetupackcmd.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_command_updateMonochromatorSetupackcmd.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_CoolingMonitoring.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_CoolingMonitoring.vi"/>
@@ -305,16 +315,17 @@
 	<Item Name="atMonochromator_salCommander_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_salCommander_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_salCommander_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_salCommander_Disable.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_Disable.vi"/>
-	<Item Name="atMonochromator_salCommander_Enable.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_Enable.vi"/>
-	<Item Name="atMonochromator_salCommander_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_EnterControl.vi"/>
-	<Item Name="atMonochromator_salCommander_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_ExitControl.vi"/>
 	<Item Name="atMonochromator_salCommander_Power.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_Power.vi"/>
 	<Item Name="atMonochromator_salCommander_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_salCommander_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_SelectGrating.vi"/>
 	<Item Name="atMonochromator_salCommander_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_salCommander_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_StandBy.vi"/>
-	<Item Name="atMonochromator_salCommander_Start.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_Start.vi"/>
+	<Item Name="atMonochromator_salCommander_disable.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_disable.vi"/>
+	<Item Name="atMonochromator_salCommander_enable.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_enable.vi"/>
+	<Item Name="atMonochromator_salCommander_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_enterControl.vi"/>
+	<Item Name="atMonochromator_salCommander_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_exitControl.vi"/>
+	<Item Name="atMonochromator_salCommander_standBy.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_standBy.vi"/>
+	<Item Name="atMonochromator_salCommander_start.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_start.vi"/>
+	<Item Name="atMonochromator_salCommander_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_salCommander_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_salEvent_AppliedSettingsMatchStart.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_AppliedSettingsMatchStart.vi"/>
 	<Item Name="atMonochromator_salEvent_CoolingMonitoring.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_CoolingMonitoring.vi"/>
 	<Item Name="atMonochromator_salEvent_DetailedState.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_DetailedState.vi"/>
@@ -339,31 +350,33 @@
 	<Item Name="atMonochromator_salProcessor_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_salProcessor_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_salProcessor_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_salProcessor_Disable.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_Disable.vi"/>
-	<Item Name="atMonochromator_salProcessor_Enable.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_Enable.vi"/>
-	<Item Name="atMonochromator_salProcessor_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_EnterControl.vi"/>
-	<Item Name="atMonochromator_salProcessor_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_ExitControl.vi"/>
 	<Item Name="atMonochromator_salProcessor_Power.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_Power.vi"/>
 	<Item Name="atMonochromator_salProcessor_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_salProcessor_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_SelectGrating.vi"/>
 	<Item Name="atMonochromator_salProcessor_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_salProcessor_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_StandBy.vi"/>
-	<Item Name="atMonochromator_salProcessor_Start.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_Start.vi"/>
+	<Item Name="atMonochromator_salProcessor_disable.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_disable.vi"/>
+	<Item Name="atMonochromator_salProcessor_enable.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_enable.vi"/>
+	<Item Name="atMonochromator_salProcessor_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_enterControl.vi"/>
+	<Item Name="atMonochromator_salProcessor_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_exitControl.vi"/>
+	<Item Name="atMonochromator_salProcessor_standBy.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_standBy.vi"/>
+	<Item Name="atMonochromator_salProcessor_start.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_start.vi"/>
+	<Item Name="atMonochromator_salProcessor_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_salProcessor_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromator_salTelemetrySub_LoopTimems.vi" Type="VI" URL="../VIs/atMonochromator_salTelemetrySub_LoopTimems.vi"/>
 	<Item Name="atMonochromator_salTelemetrySub_Timestamp.vi" Type="VI" URL="../VIs/atMonochromator_salTelemetrySub_Timestamp.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_CalibrateWavelength.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_CalibrateWavelength.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_ChangeLightIntensity.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_ChangeLightIntensity.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_ChangeSlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_ChangeSlitWidth.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_ChangeWavelength.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_ChangeWavelength.vi"/>
-	<Item Name="atMonochromator_waitForCompletion_Disable.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_Disable.vi"/>
-	<Item Name="atMonochromator_waitForCompletion_Enable.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_Enable.vi"/>
-	<Item Name="atMonochromator_waitForCompletion_EnterControl.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_EnterControl.vi"/>
-	<Item Name="atMonochromator_waitForCompletion_ExitControl.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_ExitControl.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_Power.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_Power.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_PowerWhiteLight.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_PowerWhiteLight.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_SelectGrating.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_SelectGrating.vi"/>
 	<Item Name="atMonochromator_waitForCompletion_SetCoolingTemperature.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_SetCoolingTemperature.vi"/>
-	<Item Name="atMonochromator_waitForCompletion_StandBy.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_StandBy.vi"/>
-	<Item Name="atMonochromator_waitForCompletion_Start.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_Start.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_disable.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_disable.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_enable.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_enable.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_enterControl.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_enterControl.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_exitControl.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_exitControl.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_standBy.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_standBy.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_start.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_start.vi"/>
+	<Item Name="atMonochromator_waitForCompletion_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/atMonochromator_waitForCompletion_updateMonochromatorSetup.vi"/>
 	<Item Name="atMonochromatorshminitFlags.vi" Type="VI" URL="../VIs/atMonochromatorshminitFlags.vi"/>
 </Library>
