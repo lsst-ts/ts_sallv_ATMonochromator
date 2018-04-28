@@ -47,6 +47,7 @@
 		<Item Name="logevent_SettingsAppliedLoop.ctl" Type="VI" URL="../DataTypes/logevent_SettingsAppliedLoop.ctl"/>
 		<Item Name="logevent_SettingsAppliedMonoCommunication.ctl" Type="VI" URL="../DataTypes/logevent_SettingsAppliedMonoCommunication.ctl"/>
 		<Item Name="logevent_SettingsAppliedMonoHeartbeat.ctl" Type="VI" URL="../DataTypes/logevent_SettingsAppliedMonoHeartbeat.ctl"/>
+		<Item Name="logevent_SettingsAppliedMonochromatorRanges.ctl" Type="VI" URL="../DataTypes/logevent_SettingsAppliedMonochromatorRanges.ctl"/>
 		<Item Name="logevent_SlitWidth.ctl" Type="VI" URL="../DataTypes/logevent_SlitWidth.ctl"/>
 		<Item Name="logevent_SummaryState.ctl" Type="VI" URL="../DataTypes/logevent_SummaryState.ctl"/>
 		<Item Name="logevent_Wavelength.ctl" Type="VI" URL="../DataTypes/logevent_Wavelength.ctl"/>
@@ -139,6 +140,7 @@
 	<Item Name="atMonochromator_cancelCallback_logEvent_SettingsAppliedLoop.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_SettingsAppliedLoop.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_SettingsAppliedMonoCommunication.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_SettingsAppliedMonoCommunication.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_SettingsAppliedMonoHeartbeat.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_SettingsAppliedMonoHeartbeat.vi"/>
+	<Item Name="atMonochromator_cancelCallback_logEvent_SettingsAppliedMonochromatorRanges.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_SettingsAppliedMonochromatorRanges.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_SlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_SlitWidth.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_SummaryState.vi"/>
 	<Item Name="atMonochromator_cancelCallback_logEvent_Wavelength.vi" Type="VI" URL="../VIs/atMonochromator_cancelCallback_logEvent_Wavelength.vi"/>
@@ -160,6 +162,7 @@
 	<Item Name="atMonochromator_flushSamplesEvent_SettingsAppliedLoop.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_SettingsAppliedLoop.vi"/>
 	<Item Name="atMonochromator_flushSamplesEvent_SettingsAppliedMonoCommunication.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_SettingsAppliedMonoCommunication.vi"/>
 	<Item Name="atMonochromator_flushSamplesEvent_SettingsAppliedMonoHeartbeat.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_SettingsAppliedMonoHeartbeat.vi"/>
+	<Item Name="atMonochromator_flushSamplesEvent_SettingsAppliedMonochromatorRanges.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_SettingsAppliedMonochromatorRanges.vi"/>
 	<Item Name="atMonochromator_flushSamplesEvent_SlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_SlitWidth.vi"/>
 	<Item Name="atMonochromator_flushSamplesEvent_SummaryState.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_SummaryState.vi"/>
 	<Item Name="atMonochromator_flushSamplesEvent_Wavelength.vi" Type="VI" URL="../VIs/atMonochromator_flushSamplesEvent_Wavelength.vi"/>
@@ -181,6 +184,7 @@
 	<Item Name="atMonochromator_getEvent_SettingsAppliedLoop.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_SettingsAppliedLoop.vi"/>
 	<Item Name="atMonochromator_getEvent_SettingsAppliedMonoCommunication.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_SettingsAppliedMonoCommunication.vi"/>
 	<Item Name="atMonochromator_getEvent_SettingsAppliedMonoHeartbeat.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_SettingsAppliedMonoHeartbeat.vi"/>
+	<Item Name="atMonochromator_getEvent_SettingsAppliedMonochromatorRanges.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_SettingsAppliedMonochromatorRanges.vi"/>
 	<Item Name="atMonochromator_getEvent_SlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_SlitWidth.vi"/>
 	<Item Name="atMonochromator_getEvent_SummaryState.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_SummaryState.vi"/>
 	<Item Name="atMonochromator_getEvent_Wavelength.vi" Type="VI" URL="../VIs/atMonochromator_getEvent_Wavelength.vi"/>
@@ -235,6 +239,7 @@
 	<Item Name="atMonochromator_logEvent_SettingsAppliedLoop.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_SettingsAppliedLoop.vi"/>
 	<Item Name="atMonochromator_logEvent_SettingsAppliedMonoCommunication.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_SettingsAppliedMonoCommunication.vi"/>
 	<Item Name="atMonochromator_logEvent_SettingsAppliedMonoHeartbeat.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_SettingsAppliedMonoHeartbeat.vi"/>
+	<Item Name="atMonochromator_logEvent_SettingsAppliedMonochromatorRanges.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_SettingsAppliedMonochromatorRanges.vi"/>
 	<Item Name="atMonochromator_logEvent_SlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_SlitWidth.vi"/>
 	<Item Name="atMonochromator_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_SummaryState.vi"/>
 	<Item Name="atMonochromator_logEvent_Wavelength.vi" Type="VI" URL="../VIs/atMonochromator_logEvent_Wavelength.vi"/>
@@ -307,6 +312,7 @@
 	<Item Name="atMonochromator_registerCallback_logEvent_SettingsAppliedLoop.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_SettingsAppliedLoop.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_SettingsAppliedMonoCommunication.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_SettingsAppliedMonoCommunication.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_SettingsAppliedMonoHeartbeat.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_SettingsAppliedMonoHeartbeat.vi"/>
+	<Item Name="atMonochromator_registerCallback_logEvent_SettingsAppliedMonochromatorRanges.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_SettingsAppliedMonochromatorRanges.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_SlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_SlitWidth.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_SummaryState.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_SummaryState.vi"/>
 	<Item Name="atMonochromator_registerCallback_logEvent_Wavelength.vi" Type="VI" URL="../VIs/atMonochromator_registerCallback_logEvent_Wavelength.vi"/>
@@ -342,6 +348,7 @@
 	<Item Name="atMonochromator_salEvent_SettingsAppliedLoop.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_SettingsAppliedLoop.vi"/>
 	<Item Name="atMonochromator_salEvent_SettingsAppliedMonoCommunication.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_SettingsAppliedMonoCommunication.vi"/>
 	<Item Name="atMonochromator_salEvent_SettingsAppliedMonoHeartbeat.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_SettingsAppliedMonoHeartbeat.vi"/>
+	<Item Name="atMonochromator_salEvent_SettingsAppliedMonochromatorRanges.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_SettingsAppliedMonochromatorRanges.vi"/>
 	<Item Name="atMonochromator_salEvent_SlitWidth.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_SlitWidth.vi"/>
 	<Item Name="atMonochromator_salEvent_SummaryState.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_SummaryState.vi"/>
 	<Item Name="atMonochromator_salEvent_Wavelength.vi" Type="VI" URL="../VIs/atMonochromator_salEvent_Wavelength.vi"/>
