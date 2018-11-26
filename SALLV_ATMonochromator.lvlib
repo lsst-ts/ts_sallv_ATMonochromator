@@ -29,6 +29,7 @@
 		<Item Name="command_updateMonochromatorSetup.ctl" Type="VI" URL="../DataTypes/command_updateMonochromatorSetup.ctl"/>
 		<Item Name="logevent.ctl" Type="VI" URL="../DataTypes/logevent.ctl"/>
 		<Item Name="logevent_appliedSettingsMatchStart.ctl" Type="VI" URL="../DataTypes/logevent_appliedSettingsMatchStart.ctl"/>
+		<Item Name="logevent_detailedState.ctl" Type="VI" URL="../DataTypes/logevent_detailedState.ctl"/>
 		<Item Name="logevent_errorCode.ctl" Type="VI" URL="../DataTypes/logevent_errorCode.ctl"/>
 		<Item Name="logevent_heartbeat.ctl" Type="VI" URL="../DataTypes/logevent_heartbeat.ctl"/>
 		<Item Name="logevent_inPosition.ctl" Type="VI" URL="../DataTypes/logevent_inPosition.ctl"/>
@@ -110,6 +111,7 @@
 	<Item Name="ATMonochromator_cancelCallback_command_updateMonochromatorSetupackcmd.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_command_updateMonochromatorSetupackcmd.vi"/>
 	<Item Name="ATMonochromator_cancelCallback_logEvent_.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_logEvent_.vi"/>
 	<Item Name="ATMonochromator_cancelCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="ATMonochromator_cancelCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_logEvent_detailedState.vi"/>
 	<Item Name="ATMonochromator_cancelCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_logEvent_errorCode.vi"/>
 	<Item Name="ATMonochromator_cancelCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_logEvent_heartbeat.vi"/>
 	<Item Name="ATMonochromator_cancelCallback_logEvent_inPosition.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_logEvent_inPosition.vi"/>
@@ -130,6 +132,7 @@
 	<Item Name="ATMonochromator_cancelCallback_timestamp.vi" Type="VI" URL="../VIs/ATMonochromator_cancelCallback_timestamp.vi"/>
 	<Item Name="ATMonochromator_checkCallbacks.vi" Type="VI" URL="../VIs/ATMonochromator_checkCallbacks.vi"/>
 	<Item Name="ATMonochromator_flushSamplesEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATMonochromator_flushSamplesEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="ATMonochromator_flushSamplesEvent_detailedState.vi" Type="VI" URL="../VIs/ATMonochromator_flushSamplesEvent_detailedState.vi"/>
 	<Item Name="ATMonochromator_flushSamplesEvent_errorCode.vi" Type="VI" URL="../VIs/ATMonochromator_flushSamplesEvent_errorCode.vi"/>
 	<Item Name="ATMonochromator_flushSamplesEvent_heartbeat.vi" Type="VI" URL="../VIs/ATMonochromator_flushSamplesEvent_heartbeat.vi"/>
 	<Item Name="ATMonochromator_flushSamplesEvent_inPosition.vi" Type="VI" URL="../VIs/ATMonochromator_flushSamplesEvent_inPosition.vi"/>
@@ -148,6 +151,7 @@
 	<Item Name="ATMonochromator_flushSamplesEvent_wavelength.vi" Type="VI" URL="../VIs/ATMonochromator_flushSamplesEvent_wavelength.vi"/>
 	<Item Name="ATMonochromator_getCurrentTime.vi" Type="VI" URL="../VIs/ATMonochromator_getCurrentTime.vi"/>
 	<Item Name="ATMonochromator_getEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATMonochromator_getEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="ATMonochromator_getEvent_detailedState.vi" Type="VI" URL="../VIs/ATMonochromator_getEvent_detailedState.vi"/>
 	<Item Name="ATMonochromator_getEvent_errorCode.vi" Type="VI" URL="../VIs/ATMonochromator_getEvent_errorCode.vi"/>
 	<Item Name="ATMonochromator_getEvent_heartbeat.vi" Type="VI" URL="../VIs/ATMonochromator_getEvent_heartbeat.vi"/>
 	<Item Name="ATMonochromator_getEvent_inPosition.vi" Type="VI" URL="../VIs/ATMonochromator_getEvent_inPosition.vi"/>
@@ -197,6 +201,7 @@
 	<Item Name="ATMonochromator_issueCommand_start.vi" Type="VI" URL="../VIs/ATMonochromator_issueCommand_start.vi"/>
 	<Item Name="ATMonochromator_issueCommand_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/ATMonochromator_issueCommand_updateMonochromatorSetup.vi"/>
 	<Item Name="ATMonochromator_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATMonochromator_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="ATMonochromator_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATMonochromator_logEvent_detailedState.vi"/>
 	<Item Name="ATMonochromator_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATMonochromator_logEvent_errorCode.vi"/>
 	<Item Name="ATMonochromator_logEvent_heartbeat.vi" Type="VI" URL="../VIs/ATMonochromator_logEvent_heartbeat.vi"/>
 	<Item Name="ATMonochromator_logEvent_inPosition.vi" Type="VI" URL="../VIs/ATMonochromator_logEvent_inPosition.vi"/>
@@ -261,6 +266,7 @@
 	<Item Name="ATMonochromator_registerCallback_command_updateMonochromatorSetupackcmd.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_command_updateMonochromatorSetupackcmd.vi"/>
 	<Item Name="ATMonochromator_registerCallback_logEvent_.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_logEvent_.vi"/>
 	<Item Name="ATMonochromator_registerCallback_logEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_logEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="ATMonochromator_registerCallback_logEvent_detailedState.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_logEvent_detailedState.vi"/>
 	<Item Name="ATMonochromator_registerCallback_logEvent_errorCode.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_logEvent_errorCode.vi"/>
 	<Item Name="ATMonochromator_registerCallback_logEvent_heartbeat.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_logEvent_heartbeat.vi"/>
 	<Item Name="ATMonochromator_registerCallback_logEvent_inPosition.vi" Type="VI" URL="../VIs/ATMonochromator_registerCallback_logEvent_inPosition.vi"/>
@@ -294,6 +300,7 @@
 	<Item Name="ATMonochromator_salCommander_start.vi" Type="VI" URL="../VIs/ATMonochromator_salCommander_start.vi"/>
 	<Item Name="ATMonochromator_salCommander_updateMonochromatorSetup.vi" Type="VI" URL="../VIs/ATMonochromator_salCommander_updateMonochromatorSetup.vi"/>
 	<Item Name="ATMonochromator_salEvent_appliedSettingsMatchStart.vi" Type="VI" URL="../VIs/ATMonochromator_salEvent_appliedSettingsMatchStart.vi"/>
+	<Item Name="ATMonochromator_salEvent_detailedState.vi" Type="VI" URL="../VIs/ATMonochromator_salEvent_detailedState.vi"/>
 	<Item Name="ATMonochromator_salEvent_errorCode.vi" Type="VI" URL="../VIs/ATMonochromator_salEvent_errorCode.vi"/>
 	<Item Name="ATMonochromator_salEvent_heartbeat.vi" Type="VI" URL="../VIs/ATMonochromator_salEvent_heartbeat.vi"/>
 	<Item Name="ATMonochromator_salEvent_inPosition.vi" Type="VI" URL="../VIs/ATMonochromator_salEvent_inPosition.vi"/>
